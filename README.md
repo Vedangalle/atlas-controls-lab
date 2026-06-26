@@ -173,6 +173,15 @@ This repository focuses on:
 - Robotics simulation
 - Clean, reusable engineering software
 
+## Documentation
+
+Technical notes are available in the `docs/` folder:
+
+- [PID Control](docs/pid_control.md)
+- [LQR Control](docs/lqr_control.md)
+- [Kalman Filter](docs/kalman_filter.md)
+- [Pure Pursuit Path Tracking](docs/pure_pursuit.md)
+
 ## Roadmap
 
 Planned future modules:
