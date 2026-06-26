@@ -11,11 +11,6 @@ env/
 # macOS
 .DS_Store
 
-# Figures generated locally
-figures/*.png
-figures/*.jpg
-figures/*.gif
-
 # IDE
 .vscode/
 .idea/
