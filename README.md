@@ -1,5 +1,10 @@
 # ATLAS Controls Lab
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Tests](https://github.com/Vedangalle/atlas-controls-lab/actions/workflows/python-tests.yml/badge.svg)
+![Status](https://img.shields.io/badge/status-active-success)
+![Focus](https://img.shields.io/badge/focus-robotics%20controls-purple)
+
 A robotics controls and estimation sandbox built from first principles in Python.
 
 This repository implements core ideas used in autonomous systems, including classical feedback control, optimal control, state estimation, attitude stabilization, and path tracking. The goal is to connect mathematical models with clean, reproducible simulations that can be extended toward robotics research, multi-agent systems, and real hardware platforms.
