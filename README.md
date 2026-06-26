@@ -1,33 +1,29 @@
 # ATLAS Controls Lab
 
-A collection of robotics, controls, and estimation simulations built from first principles in Python.
+A robotics controls and estimation sandbox built from first principles in Python.
 
-This repository is my personal sandbox for implementing core ideas used in autonomous systems, including PID control, LQR, Kalman filtering, drone attitude stabilization, and path tracking. The goal is to connect mathematical models with clean, reproducible simulations that can be extended toward robotics research and real hardware systems.
+This repository implements core ideas used in autonomous systems, including PID control, optimal control, state estimation, and attitude stabilization. The goal is to connect mathematical models with clean, reproducible simulations that can be extended toward robotics research, multi-agent systems, and real hardware platforms.
 
-## Current Modules
+## Modules
 
-- PID control for a mass-spring-damper system
-- LQR control for an inverted pendulum
-- Kalman filtering for 1D tracking
-- Drone attitude stabilization
-- Path tracking using pure pursuit
+### 1. PID Control: Mass-Spring-Damper System
 
-## Repository Structure
+A classical second-order dynamic system controlled using a PID controller.
 
-atlas-controls-lab/
-├── notebooks/
-├── src/
-│   ├── controllers/
-│   ├── dynamics/
-│   └── estimation/
-├── figures/
-├── docs/
-└── tests/
+The simulation tracks a target position and reports final error, overshoot, and control effort.
 
-## Goal
+Generated figures:
 
-The goal of this repository is to build a strong technical foundation in robotics controls, estimation, and simulation. Each module includes both reusable Python code and visual explanations through notebooks.
+- `figures/pid_mass_spring_damper_position.png`
+- `figures/pid_mass_spring_damper_control.png`
 
-## Status
+Run:
 
-Work in progress. First module: PID control for a mass-spring-damper system.
+```bash
+python notebooks/01_pid_mass_spring_damper.py
+
+## Installation
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
