@@ -82,7 +82,7 @@ python notebooks/04_drone_attitude_pid.py
 ```
 
 ### 5. Pure Pursuit Path Tracking
-
+![Pure Pursuit Path Tracking](media/pure_pursuit_tracking.gif)
 A unicycle robot model tracks a sinusoidal reference path using a pure pursuit controller.
 
 This module demonstrates autonomous path following, lookahead-point selection, heading correction, steering commands, and tracking error analysis.
