@@ -1,6 +1,6 @@
 # ATLAS Controls Lab
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Tests](https://github.com/Vedangalle/atlas-controls-lab/actions/workflows/python-tests.yml/badge.svg)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Focus](https://img.shields.io/badge/focus-robotics%20controls-purple)
